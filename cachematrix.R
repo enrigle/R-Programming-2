@@ -72,6 +72,6 @@ cacheSolve(x)
 x$getinverse()
 x$get()
 x$set(matrix(2:5,2,2)) #I can access x$set() directly to change the underlying vector
-#this resets m to NULL and forces cacheMean() to calculate a new mean
+#this resets m to NULL and forces cacheSolve() to calculate a new mean
 cacheSolve(x)
 x$get()
